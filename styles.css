@@ -19,17 +19,24 @@ body {
 }
 
 header {
-    height: 160px;
+    height: 170px;
     background-image: url("img/header.jpg");
+    background-size: 100% auto;
     background-position: center center;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-h1{
-    text-indent: -9999px ;
-    width: 940px;
-    height: 130px;
-    margin: 0px;
+h1 {
+    /* text-indent: -9999px ; */
+    text-align: center;
+    margin: auto auto;
+    font-family: "Berkshire Swash", sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    color: #FFF;
 }
 
 nav, footer{
@@ -44,17 +51,19 @@ nav {
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
-    margin: auto;
+    margin: 0;
+    text-align: center;
 }
 
 nav ul {
     margin: 0px;
-    padding: 5px 0px 5px 30px;
+    padding: 12px 0px 5px 30px;
 }
 
 nav li {
     display: inline;
     margin-right: 40px;
+    padding-top: 10px;
 }
 
 nav li a {
